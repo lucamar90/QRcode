@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="qrcode.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+    <input id="text" type="url" value="inserisci un URL"/>
+    <button type="button" onclick="qrcode.makeCode(elText.value);">Genera</button>
+      <div id="qrcode"></div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
