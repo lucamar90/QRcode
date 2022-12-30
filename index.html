@@ -9,8 +9,10 @@
   </head>
   <body>
     <div id="container">
-    <input id="text" type="url" value="inserisci un URL"/>
-    <button type="button" onclick="qrcode.makeCode(elText.value);">Genera</button>
+      <div id="inline">
+        <input id="text" type="url" value="inserisci un URL" style="width:80%; height:35px"/>
+        <button type="button" class="button" onclick="qrcode.makeCode(elText.value);">Genera</button>
+      </div>
       <div id="qrcode"></div>
 
     <script src="code.js"></script>
