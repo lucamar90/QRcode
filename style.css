@@ -4,20 +4,16 @@
 }
 #container {
   width: 100%;
-  padding: 40px;
+  padding: 20px;
 }
-input {
 
-}
 #qrcode {
-  width: 100%;
+  width: 90%;
   height:auto;
   margin-top:15px;
 }
 #qrcode > img {
-  display: inline-block;
   width: 90%;
-  align-items: center;
 }
 #inline {
   width: 90%;
